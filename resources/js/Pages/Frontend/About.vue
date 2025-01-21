@@ -1,12 +1,18 @@
 <template>
     <h1>
         <div>
-            This is the About page 
+            {{title}} 
         </div>
     </h1>
     
     </template>
     
-    <script>
+    <script setup>
     
+    defineProps({
+    title: {
+        type: String,
+    },
+    
+});
     </script>
