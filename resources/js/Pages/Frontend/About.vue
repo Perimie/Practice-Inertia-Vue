@@ -1,4 +1,7 @@
 <script setup>
+
+import FrontendLayout from '@/Layouts/FrontendLayout.vue';
+import { Head } from '@inertiajs/vue3';
     
 defineProps({
 title: {
@@ -9,12 +12,13 @@ title: {
 </script>
 
 <template>
-    <h1>
-        <div>
-
+   <FrontendLayout>
+    <Head title="About Page"/>
+    <h1>        
             {{title}} 
-        </div>
     </h1>
+   </FrontendLayout>
+   
     
     </template>
     

@@ -1,12 +1,18 @@
+<script setup>
+
+import FrontendLayout from '@/Layouts/FrontendLayout.vue';
+import { Head } from '@inertiajs/vue3';
+</script>
+
 <template>
-<h1>
-    <div>
-        This is the home page 
-    </div>
-</h1>
+
+<FrontendLayout>
+    <Head title="Home Page"/>
+    <h1>     
+                This is the home page 
+    </h1>
+</FrontendLayout>
+
 
 </template>
 
-<script setup>
-
-</script>
